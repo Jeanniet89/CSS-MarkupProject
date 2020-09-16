@@ -1,0 +1,322 @@
+/* Navbar */
+nav-top { 
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1191cc;
+	height: 6rem;
+	background-color: #1191cc;
+}
+
+nav-ul {
+    list-style: none;
+	display: inline;
+    padding: 20px;
+    flex-direction: row;
+    list-style: none;
+    display: inline-block;
+	padding: 0px 20px;
+}
+
+/* Page Body */
+body {
+    background-color: #32B9E5;
+	height: 100vh;
+	margin: 0px;
+}
+
+header {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+/* Track Manage Sync Section */
+.tracking {
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+	height: 20rem;
+	margin-bottom: -30px;
+	margin-top: 12px;
+    width: 100%;
+    font-size: 2rem;
+	color: #39c0e7;
+	line-height: 1;
+}
+
+#text-tracking {
+	border-right: 1px solid #39c0e7;
+	border-bottom: 1px solid #39c0e7;
+	width: auto;
+    padding: 15%;
+}
+
+#manage {
+	width: auto;
+	padding: 15%;
+    border-right: 1px solid #39c0e7;
+	border-bottom: 1px solid #39c0e7;
+}
+
+#sync {
+	border-right: 1px solid #39c0e7;
+	border-bottom: 1px solid #39c0e7;
+	width: auto;
+    padding: 15%;
+}
+
+/* Workout Features */
+.features {
+	background-color: #f6f9f9;
+	height: 100rem;
+	margin-top: 2rem;
+	border-bottom: 1px solid #39c0e7;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20rem;
+}
+
+.wout-features {
+	text-align: center;
+	font-size: 8rem;
+	color: #1191cc;
+	font-family: 'Roboto Slab', serif;
+	padding-top: 10rem;
+	margin-top: -10px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.workout-line2 {
+	background-color: #f6f9f9;
+	height: 1rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: -5rem;
+}
+
+#workout-line {
+	width: 35rem;
+	height: 6px;
+	background-color: #1191cc;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-self: start;
+}
+
+.featurecircles {
+	display: flex;
+	justify-content: center;
+	margin-top: 5rem;
+	list-style: none;
+}
+
+#circle1 {
+	border: 8px solid #63bd70;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	margin-right: 12rem;
+}
+
+#circle2 {
+	border: 8px solid #e20707;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	margin-right: 12rem;
+	margin-left: 12rem;
+}
+
+#circle3 {
+	border: 8px solid #7e20e9;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	margin-left: 12rem;
+}
+
+.performanceline {
+	height: 100px;
+	width: 68%;
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 6px solid #63bd70;
+}
+
+.performanceTxt {
+	font-size: 2rem;
+    color: #63bd70;
+    list-style: none;
+	width: 85%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#performanceTxt2 {
+	font-size: 1.5rem;
+    color: #999c9c;
+    margin-left: 15%;
+	margin-right: 15%;
+}
+
+/* Trainers */
+#featuretrainer {
+	text-align: center;
+	font-size: 8rem;
+	color: #179ad9;
+}
+
+.featureline {
+	background-color: white;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#ft-underline {
+	width: 40rem;
+	height: 8px;
+	background-color: #179ad9;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-self: start;
+}
+
+/* Cards */
+.wrapper {
+	margin: 0;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+.cards {
+	width: 30rem;
+	height: 20rem;
+	background: pink;
+	border-radius: 20px;
+	margin: 20px;
+	display: inline-block;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+/* Results */
+.numbers {
+	height: 25rem;
+	background-color: #179ad9;
+	background-image: linear-gradient(to right, #39c0e7, #179ad9);
+	margin-bottom: -20rem;
+	display: flex;
+	justify-content: center;
+}
+
+.numbersleft {
+	width: 30%;
+	border-right: 1px solid white;
+	text-align: center;
+	height: 15rem;
+	margin-top: 5rem;
+}
+
+.numbersright {
+	width: 30%;
+	text-align: center;
+	height: 15rem;
+	margin-top: 5rem;
+}
+#totalwouts {
+	color: white;
+	font-size: 6rem;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 30rem;
+}
+
+.totalnum {
+   	color: white;
+	font-size: 6rem;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 30rem;
+    padding: 1rem;
+}
+
+#totalwoutscompleted {
+	color: #00749a;
+	font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+}
+
+.button {
+	height: 6rem;
+	margin-top: 5rem;
+    justify-content: center;
+    height: 5rem;
+	width: 20rem;
+    border-style: none;
+    margin-left: 50rem;
+}
+
+#button {
+	color: white;
+	background-color: #00749a;
+	font-size: 1.2rem;
+	font-stretch: expanded;
+	font-family: 'Lato', sans-serif;
+	border-radius: 5px;
+}
+
+.numbersgap {
+	height: 20px;
+	width: 100%;
+    background-image: linear-gradient(to right, #39c0e7, #179ad9);
+}
+
+.results {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: repeat(2, auto);
+}
+
+/* Footer */
+footer {
+	justify-content: end;
+	height: 10rem;
+	background-color: #07212c;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+    list-style: none;
+    margin-top: 4rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+
+.footer-links {
+    list-style: none;
+    display: inline-block;
+	padding: 5px 40px;
+}
+
+a:link {
+	text-decoration: none;
+	color: gray;
+}
+
+section {
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

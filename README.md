@@ -8,8 +8,14 @@ A webpage replicated using only css to the best of my capabilities at the time o
 
 ## Built With
 
-- [HTML](https://getbootstrap.com)
-- [CSS](https://jquery.com)
+- [HTML](https://www.w3schools.com/html/default.asp)
+- [CSS](https://www.w3schools.com/Css/)
+
+### Installation
+
+1. `git clone` this repo
+   `sh git clone https://github.com/your_username_/Project-Name.git `
+2. `cd` into it.
 
 <!-- ACKNOWLEDGEMENTS -->
 
